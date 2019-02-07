@@ -1,0 +1,92 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Abril+Fatface" rel="stylesheet">
+    <meta charset="utf-8" />
+	<meta name="description" content="INPRL" />
+    <head>
+    
+    <title>INPRL</title>
+  <style>
+             form{
+         margin: 0 auto;
+         width:450px;
+         margin-bottom: 20px;
+         padding: 10px 20px;
+         border-radius: 7px;
+         background-color:D1EEEB;
+         box-sizing:border-box;
+         margin-top:20px;
+         text-align: center;
+        }
+        input,textarea,select{
+         width: 100%;
+         margin-bottom: 20px;
+         padding: 7px;
+         box-sizing:border-box;
+         font-size: 17px;
+         border: none;
+        }
+
+        form p{
+         color:#06827C;
+         font-size: 40px;
+         margin-bottom: 20px;
+         /*display:inline-block;*/
+         font-family: 'Raleway';
+        }
+        textarea{
+         max-height: 200px;
+         min-height:100px;
+         max-width: 100%;
+        }
+        #boton{
+         background-color: darkgray;
+         color: #fff;
+         padding: 20px;
+         border: none;
+         width: 100%;
+         font-family: 'Raleway';
+         font-weight: bolder;
+         font-size: 1em;
+         border-radius: 7px;
+        }
+        #boton:hover{
+         cursor:pointer;
+        }
+
+        @media (max-width:480px){
+
+          form{
+           width:100%;
+         } 
+
+        }
+        </style>
+   
+    </head>
+    
+    <body>
+<form action="" method="POST" enctype="">
+           <p>Formulario de partes de accidente</p>
+            <input type="text" name="cod_parte" size="15" maxlength="30" placeholder="Código del parte" >
+            <input type="text" name="dni" size="15" maxlength="30" placeholder="DNI" >
+            <input type="text" name="fecha_accidente" size="15" maxlength="30" placeholder="Fecha del accidente" >
+            <input type="text" name="hora_accidente" size="15" maxlength="30" placeholder="Hora del accidente" >
+            <input type="text" name="causa_accidente" size="15" maxlength="30" placeholder="Causa del accidente" >
+            <input type="text" name="tipo_lesion" size="15" maxlength="30" placeholder="Tipo de lesión" >
+            <input type="text" name="partes_cuerpo_lesionado" size="15" maxlength="30" placeholder="Partes del cuerpo lesionadas" >
+            <input type="text" name="gravedad" size="15" maxlength="30" placeholder="Gravedad: Baja, normal o alta" >
+            <input type="text" name="baja" size="15" maxlength="30" placeholder="Baja: sí o no" >
+
+           <button name="enviar" id="boton" class="boton_enviar">Enviar</button>
+       
+       
+       </form>
+        <?php
+            if(isset($_POST['boton'])){
+require ("registro.php");
+}
+        ?>
+</body>
+    
+</html>

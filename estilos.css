@@ -1,0 +1,259 @@
+*{
+            padding:0px;
+            margin:0px;
+            font-family:'Raleway', 'Lobster';
+        }
+        
+        html, body {
+	       width: 100%;
+	       height: 100%;
+        }
+        
+        .menuContenedor {
+            
+        }
+        
+        .menu{
+            margin:auto;
+            width:100%;
+            font-family:'Raleway';
+            
+        }
+        ul{
+            list-style:none;
+        }
+        .nav li a {
+            background-color:#06827C;
+            color:white;
+            text-decoration:none;
+            padding: 10px 15px;
+            display:block;
+           
+            
+        }
+        .nav li a:hover{ 
+            background-color:darkgrey;
+            
+        }
+            
+       
+        .nav > li {
+            float:left;
+        }
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        .nav li:hover > ul {
+            display:block;
+        }
+        
+
+
+    
+/* ______Aqui empeza o deseño titulo______ */
+    .tituloHeader {
+	   position: absolute;
+	   top: 50%; /* posición na pantalla, se fora 50% estaría na metade */
+	   left: 50%;
+	   transform: translate(-50%,-50%);
+        
+}
+	.divTitulo h1 {
+		font-size: 4.25rem;
+        text-align: center;
+        color:white;
+        border: 10px solid white;
+        padding:50px;
+        font-family:'Abril+Fatface';
+        
+	}
+	.divSubtitulo h2{
+		font-size: 1.375rem;
+        color:whitesmoke;
+         
+        
+	}
+    /*______ Aqui empeza o deseño do div container gris______ */
+    .contenedortitulo{
+            width: 100%;
+	        margin: auto;
+	        padding: 50px 0 80px 0;
+           	height: 100%; 	
+        
+            border: 0; 
+            background-color:#06827C; 
+            font-size:30px;
+        background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+   
+      
+        
+            
+            
+        }
+        
+    
+   /*_______empeza os div quienes somos. contacto..._*/     
+        
+    .quienes2{
+            width: 100%;
+	        margin: auto;
+	        padding: 50px 0 80px 0;
+           	height: 80%; 	
+            border: 0; 
+            background-color:white; 
+            font-size:30px; 
+        
+            
+            
+    }
+            .quienes2 h1{
+                font-size:60px;
+                text-align:center;
+                color:#06827C;
+                 font-family:'Abril+Fatface';
+                
+            }
+            .quienes2 p{
+                font-size:20px;
+                text-align:left;
+                color:#06827C;
+                margin:20px 30px;
+            }
+           
+        .contacto{
+            width: 100%;
+	        margin: auto;
+	        padding: 50px 0 80px 0;
+           	height: 50%; 	
+            border: 0; 
+            background-color:#06827C; 
+            font-family:'Raleway'; 
+            font-size:30px; 
+            color:white;
+            
+        }
+            .contacto h1{
+                    font-size:60px;
+                    text-align:center;
+                    color:white;
+                 font-family:'Abril+Fatface';
+            }
+            .contacto p{
+                font-size:20px;
+                text-align:center;
+                color:white;
+                margin:70px 40px;
+            }
+        
+        .donde{
+            width: 100%;
+	        margin: auto;
+	        padding: 50px 0 80px 0;
+           	height: 100%; 	
+            border: 0; 
+            background-color:#06827C; 
+            font-family:'Raleway'; 
+            font-size:30px; 
+            color:white;
+            
+            
+        }
+                .donde h1{
+                        font-size:60px;
+                        text-align:center;
+                        color:white;
+                     font-family:'Abril+Fatface';
+                }
+                .donde p{
+                    font-size:20px;
+                    text-align:center;
+                    color:white;
+                    margin:30px 40px;
+
+                }
+                .donde h2{
+                        font-size:30px;
+                        text-align:left;
+                        color:white;
+                        margin:20px 30px;
+
+                    }
+        
+        .faqs{
+            width: 100%;
+	        margin: auto;
+	        padding: 50px 0 80px 0;
+           	height: 100%; 	
+            border: 0; 
+            background-color:white; 
+            font-family:'Raleway'; 
+            font-size:30px; 
+            color:white;
+            
+        }
+            .faqs h1{
+                 font-size:60px;
+                 text-align:center;
+                 color:#06827C;
+                 font-family:'Abril+Fatface';
+                }
+            .faqs p{
+                font-size:20px;
+                text-align:center;
+                color:#06827C;
+                 margin:30px 40px;
+
+            }
+
+        /*_-----------------footer-------------*/
+        .pie{
+            background-color:#D1EEEB;
+            width: 100%;
+	        margin: auto;
+	        padding: 20px 0 20px 0;
+           	height: 70px; 	
+            border: 0; 
+            color:white;
+            font-family:'Raleway'; 
+            font-size:15px; 
+          
+            
+            
+        }
+        .pie p{
+            color:#06827C;
+            font-family:'Raleway'; 
+            font-size:15px; 
+            text-align:left;
+            margin:20px 20px;;
+            
+        }
+        .pie h2{
+            color:#06827C;
+            font-family:'Abril+Fatface';
+            font-size:25px; 
+            text-align:right;
+            margin:20px 20px;;
+            
+        }
+        /*________mapa de google-------*/
+        #map{
+            margin:auto;
+        }
+        
+        /*------------------tabla de formacion-------------*/
+           
+        table{
+            margin:auto;
+            background-color:white;
+        }
+         th, td {
+            padding: 15px;
+            text-align: left;
+            background-color:#06827C;
+             color:white;
+            }

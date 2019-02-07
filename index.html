@@ -1,0 +1,121 @@
+ <!DOCTYPE>  
+<html>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Abril+Fatface" rel="stylesheet">
+    <meta charset="utf-8" />
+	<meta name="description" content="INPRL" />
+    <head>
+    
+    <title>INPRL</title>
+  
+   
+    </head>
+    
+    <body>
+        
+    <header>
+    <div class="menuContenedor">
+        <div class="menu">
+        
+            <ul class="nav">
+               
+                <li> <a href="">El INPRL</a></li>
+                 <li> <a href="inforiesgos.html">Información sobre riesgos</a></li>
+                 <li> <a href="formularioparte.php">Nuevo Parte</a></li>
+                <li> <a href="buscador_cod_html.php">Modificar Parte</a></li>
+                <li> <a href="buscador2_cod_html.php">Consulta de partes</a></li>
+                <li> <a href="form_login.php">Login</a></li>
+                <li> <a href="logout.php">Logout</a></li>
+
+            </ul>
+            
+       
+        </div>
+    </div>
+    <div class="tituloHeader">
+		<div class="divTitulo">
+			<h1>INPRL</h1>
+		</div>
+		<div class="divSubtitulo">
+			<h2>Instituto Nacional de Prevención de Riesgos Laborales</h2>
+		</div>
+	</div>
+    </header>
+        
+        
+ <main>    
+   <div class="contenedortitulo"> <!--aqui dentro vai o titulo INPRL --></div>
+   
+     <section class="quienes" id="quien" >
+        <div class="quienes2" ><h1>Quienes somos</h1>
+            <p>Desde INPRL tenemos la misión de informar sobre los riesgos laborales y mejorar las condiciones de seguridad e higiene en el entorno laboral através de la Ley de PRL. En esta web vas a encontrar información sobre las normativas sobre riesgos laborales, además de cursos gratuitos sobre la materia.</p>
+            <p>Para complir esto, el INPRL desarrollará los siguientes objetivos generales:</p>
+
+<p>•Realizar la actividad preventiva gestionando los servicios correspondientes.</p>
+<p>•Desarrollar la información, investigación y formación en materia preventiva laboral.</p>
+<p>•Proporcionar asesoramiento, colaboración y apoyo técnico a las empresas, trabajadores, agentes sociales y organismos administrativos.</p>
+<p>•Realizar el seguimiento y evaluación de las actuaciones técnico-preventivas necesarias en materia de seguridad y salud laboral, promoviendo la adopción de las medidas preventivas precisas para su correcto funcionamiento.</p>
+<p>•Desempeñar las funciones de colaboración pericial, asesoramiento técnico y comprobatorias de las condiciones de seguridad y salud en las empresas y centros de trabajo que sean necesarias a la Inspección de Trabajo y Seguridad Social en el marco normativo y reglamentario que en cada momento se determine.</p>
+        </div>
+     </section>
+    
+   <div class="contacto">
+      <h1>Contacto</h1>
+       <p>Telefóno: <b>+34 132 645 654</b></p>
+       <p>Email: <b>info@inprl.com</b></p>
+       
+   </div>
+     
+    <div class="faqs">
+       <h1>Formación</h1>
+       
+        <p>Para más información sobre estos cursos rellena nuestro formulario de contacto.</p>
+       <table >
+           <tr><td style="Background-color:darkgrey;">Ref.</td><td style="Background-color:darkgrey;">Título del curso</td><td style="Background-color:darkgrey;">Lugar de celebración</td><td style="Background-color:darkgrey;">Fechas</td><td style="Background-color:darkgrey;">Horas lectivas</td></tr>
+           <tr><td> C-G-1</td><td>Prevención, lideranzgo y excelencia empresarial </td><td>CNCT Murcia </td><td>03-05/04/2018 </td><td>15</td><tr>
+           <tr><td> C-G-1</td><td>Prevención, lideranzgo y excelencia empresarial </td><td>CNCT Valencia </td><td>06-09/04/2018 </td><td>15</td><tr>
+           <tr><td> C-G-2</td><td> Prevención, responsabilidad social y empresarial</td><td> CNCT Sevilla</td><td>08-10/05/2018 </td><td>10</td><tr>
+           <tr><td> C-G-2</td><td> Prevención, responsabilidad social y empresarial</td><td> CNCT Oviedo</td><td>13-15/05/2018 </td><td>10</td><tr>
+           <tr><td> C-G-3</td><td> Integración del coste-beneficio en la acción preventiva</td><td>CNCT Pontevedra </td><td> 05-7/05/2018</td><td>15</td><tr>
+           <tr><td> C-G-3</td><td> Integración del coste-beneficio en la acción preventiva</td><td>CNCT Pamplona </td><td> 08-10/04/2018</td><td>15</td><tr>
+           <tr><td> C-G-4</td><td> Liderazgo, conflicto y condiciones de trabajo</td><td>CNCT Barcelona </td><td>26-28/06/2018 </td><td>10</td><tr>
+           <tr><td> C-G-5</td><td> Concienciación de directivos en prevención</td><td>CNCT Madrid </td><td> 08-10/06/2018</td><td>10</td><tr>
+       </table>
+       
+   </div>
+        
+     
+   <div class="donde">
+       <h1>Dónde estamos</h1>
+      
+       <p>Praza da Quintana, 73, Santiago de Compostela</p>
+       
+       <div id="map" style="width:70%;height:70%;"></div>
+       <script>
+          function initMap() {
+        var marcador = {lat:42.880484626902245, lng:-8.543704911183568};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: marcador
+        });
+        var marker = new google.maps.Marker({
+          position: marcador,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOBho7VjJhenIKXAWH6UEXkcsJ5XuxZUE&callback=initMap"
+            async defer></script>
+    
+   </div>
+     
+        
+    <footer class="pie">
+        <p>Todos los derechos reservados. 2018</p>
+        <h2>INPRL</h2>
+    </footer>
+        
+</main>     
+    </body>
+    
+</html>
